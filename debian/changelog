@@ -1,0 +1,12 @@
+python-ebooklib (0.15-2) unstable; urgency=low
+
+  * Use a better format for GitHub in watch file
+  * Get the year right in the changelog...
+
+ -- Daniel James <daniel@64studio.com>  Tue, 8 Apr 2014 17:48:00 +0100
+
+python-ebooklib (0.15-1) unstable; urgency=low
+
+  * Upstream 0.15 release
+
+ -- Daniel James <daniel@64studio.com>  Tue, 8 Apr 2013 12:09:00 +0100

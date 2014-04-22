@@ -1,0 +1,38 @@
+Source: python-ebooklib
+Section: python
+Priority: optional
+Maintainer: Daniel James <daniel@64studio.com>
+Build-Depends: debhelper (>= 8), dh-python, python-all (>= 2.7.3-4~), python-setuptools, python3-all, python3-setuptools
+X-Python-Version: >= 2.7
+X-Python3-Version: >= 3.3
+Standards-Version: 3.9.5
+Homepage: http://github.com/aerkalov/ebooklib
+Vcs-Git: git://github.com/danielhjames/ebooklib-packaging.git
+Vcs-Browser: https://github.com/danielhjames/ebooklib-packaging
+
+Package: python-ebooklib
+Architecture: all
+Depends: python (>= 2.7), python (<< 2.8), python-lxml, python-six, ${python:Depends}, ${misc:Depends}
+Description: Python 2 E-book library for handling EPUB2/EPUB3/Kindle formats
+ EbookLib is a Python library for managing EPUB2/EPUB3 and Kindle files. It's
+ capable of reading and writing EPUB files programmatically (Kindle support is
+ under development).
+ .
+ The API is designed to be as simple as possible, while at the same time making
+ complex things possible too. It has support for covers, table of contents,
+ spine, guide, metadata and more. EbookLib works with Python 2.7 and Python
+ 3.3, this is the Python 2 version of the package.
+
+Package: python3-ebooklib
+Architecture: all
+Depends: python3 (>= 3.3), python3 (<< 3.4), python3-lxml, python3-six, ${misc:Depends}
+Description: Python 3 E-book library for handling EPUB2/EPUB3/Kindle formats
+ EbookLib is a Python library for managing EPUB2/EPUB3 and Kindle files. It's
+ capable of reading and writing EPUB files programmatically (Kindle support is
+ under development).
+ .
+ The API is designed to be as simple as possible, while at the same time making
+ complex things possible too. It has support for covers, table of contents,
+ spine, guide, metadata and more. EbookLib works with Python 2.7 and Python
+ 3.3, this is the Python 3 version of the package.
+
